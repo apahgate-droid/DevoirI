@@ -1,0 +1,33 @@
+Algorithmes de Recherche dans un Labyrinthe
+
+Ce Projet est réalisé dans le cadre du cours Fondements de l’Intelligence Artificielle 
+Université du Québec en Outaouais (UQO)  
+Session : Hiver 2026  
+
+
+Ce projet implémente trois algorithmes de recherche pour trouver un chemin dans un labyrinthe :
+
+- DFS (Depth-First Search)
+- BFS (Breadth-First Search)
+- A* (A-Star)
+
+Le labyrinthe est généré automatiquement sous forme d'une grille 2D de taille **16x16**.  
+L'objectif est de trouver un chemin entre :
+
+- **S** : point de départ
+- **G** : point d'arrivée
+
+Les résultats de chaque algorithme incluent :
+
+- Les cases explorées
+- Le chemin trouvé
+- Le nombre de nœuds explorés
+- La longueur du chemin
+- Le temps d'exécution
+
+
+Lancer le programme
+
+Dans le dossier du projet :
+
+python main.py
